@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cabin:ital,wght@0,400..700;1,400..700&family=Hammersmith+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    
+
+}
+
+
+header {
+    background-color: #3494fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5%;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.parte1 {
+        padding: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 4rem;
+        align-items: center;
+        padding-bottom: 0%;
+
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: #002855;
+   
+
+}
+
+h1, .titulo {
+    color: #FFC107;
+}
+
+.parte2 {
+    padding: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+.text2 {
+display: flex;
+flex-direction: column;
+gap: 3rem;
+font-size: 1.6rem;
+padding: 2rem;
+color: #002855;
+
+}
+
+.imagem2 {
+    width: 50rem;
+    height: 40rem;
+    
+}
+
+img {
+    border-radius: 10px
+}
+
+.curiosidades {
+    background-color: #3494fb; /* Cor de fundo */
+    padding: 2rem; /* Espaçamento interno */
+    list-style-type: none; /* Remove os marcadores */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: space-around; /* Espaça os itens de maneira igual */
+
+}
+
+.curiosidades li, h2 {
+    color: #fff; /* Cor do texto */
+    font-size: 1.8rem; /* Tamanho do texto */
+}
+
+.parte3 {
+    padding: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+.text3 {
+display: flex;
+flex-direction: column;
+gap: 3rem;
+font-size: 1.6rem;
+padding: 2rem;
+color: #002855;
+
+}
+
+.imagem3 {
+    width: 40rem;
+    height: 30rem;
+
+}
+
+footer {
+    background-color: #E59B5A; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-container p {
+    margin: 1rem
+}
+
+
+
